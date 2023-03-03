@@ -1,7 +1,6 @@
 {
     "name": "salimk/strip-tags",
     "type": "library",
-    "version": "master",
     "description": "remove PHP and HTML Tags from a string in a custom and efficient  way",
     "keywords": [
 	    "strip-tags",
@@ -10,21 +9,24 @@
     "homepage": "https://github.com/salimk/strip-tags",
     "license": "MIT",
     "minimum-stability": "dev",
-    "authors": [
-        {
+    "authors": [{
             "name": "Akpé Aurelle Emmanuel Moïse Zinsou, Salim KHALIL",
-            "email": "leizmo@gmail.com,khalilsalim1@gmail.com"
-        }
-    ],
+            "email": "leizmo@gmail.com"
+    },{
+            "name": "Salim KHALIL",
+            "email": "khalilsalim1@gmail.com"
+    },
+               
+               ],
     "require": {
         "php": "^7.0",
-	"salimk/strip-tags": "dev-master"
+	    "salimk/strip-tags": "dev-master"
     },
 	
     "require-dev": {
         "phpunit/phpunit": "^6.5.0",
         "friendsofphp/php-cs-fixer": "^2.15",
-	"salimk/strip-tags": "dev-master"
+	     "salimk/strip-tags": "dev-master"
     },
 
     "autoload": {
