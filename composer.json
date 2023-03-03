@@ -1,6 +1,7 @@
 {
     "name": "salimk/strip-tags",
     "type": "library",
+    "version": "master",
     "description": "remove PHP and HTML Tags from a string in a custom and efficient  way",
     "keywords": [
 	    "strip-tags",
@@ -19,7 +20,7 @@
     ],
     "require": {
         "php": "^7.0",
-	"dev-master": "dev-master"
+	"salimk/strip-tags": "dev-master"
     },
 	
     "require-dev": {
@@ -45,10 +46,5 @@
             "@check-style",
             "@test"
         ]
-    },
-    "extra": {
-    "branch-alias": {
-      "dev-master": "dev-master"
     }
-  }
 }
