@@ -18,7 +18,8 @@
         }
     ],
     "require": {
-        "php": "^7.0"
+        "php": "^7.0",
+	"dev-master": "dev-master"
     },
 	
     "require-dev": {
@@ -47,7 +48,7 @@
     },
     "extra": {
     "branch-alias": {
-      "dev-master": "v1.0.2"
+      "dev-master": "dev-master"
     }
   }
 }
